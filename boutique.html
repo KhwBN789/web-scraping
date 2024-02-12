@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOUTIQUE</title>
+    <link rel="stylesheet" href="css/style_shop.css">
+</head>
+<body>
+    <nav class="navbar"> 
+        <div class="nav-links">
+            <ul>
+                <li><a href="shop.html">BOUTIQUE</a></li>
+                <li><a href="idea.html">DESIGN</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+        <a href="index.html" class="logo"><img src="images/home-icon.png" alt="profile" class="home-icon"></a>
+        <div class="nav-icons">
+            <ul>
+                <li><a href="connexion.html"><img src="images/user-icon.png" alt="profile" class="user-icon"></a></li>
+                <li><a href="#"><img src="images/search-icon.png" alt="profile" class="search-icon"></a></li>
+                <li><a href="#"><img src="images/basket-icon.png" alt="profile" class="basket-icon"></a></li>
+            </ul>
+        </div>
+        <img src="images/menu_icon.png" alt="menu" class="menu">
+    </nav>
+
+    <!-- Design1 -->
+    <div class="design1">
+        <h1 class="design-category">Meubles Salon</h1>
+        <div class="product-content-design">
+            <div class="product-content">
+                <img class="product-image" src="images/papier_peint.jpeg">
+                <div>
+                    <p class="product-price">780 TND</p>
+                </div>
+            </div>
+            <div class="product-content">
+                <img class="product-image" src="images/produit_blanc.png">
+                <div>
+                    <p class="product-price">450 TND</p>
+                </div>
+            </div>
+            <div class="product-content">
+                <img class="product-image" src="images/produit_orange.png">
+                <div>
+                    <p class="product-price">545 TND</p>
+                </div>
+            </div>
+            <div class="product-content">
+                <img class="product-image" src="images/produit_beige.png">
+                <div>
+                    <p class="product-price">1170 TND</p>
+                </div>
+            </div>
+            <div class="product-content">
+                <img class="product-image" src="images/produit_vert.png">
+                <div>
+                    <p class="product-price">1300 TND</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- DESIGN2 -->
+    <div class="design2">
+        <h1 class="design-category">Chambres</h1>
+        <div class="product-content-design">
+            <div class="product-content">
+                <img class="product-image" src="images/chambre1.png">
+                <div>
+                    <p class="product-price">1280 TND</p>
+                </div>
+            </div>
+            <div class="product-content">
+                <img class="product-image" src="images/chambre2.png">
+                <div>
+                    <p class="product-price">1150 TND</p>
+                </div>
+            </div>
+            <div class="product-content">
+                <img class="product-image" src="images/chambre3.png">
+                <div>
+                    <p class="product-price">1245 TND</p>
+                </div>
+            </div>
+            <div class="product-content">
+                <img class="product-image" src="images/chambre4.png">
+                <div>
+                    <p class="product-price">2170 TND</p>
+                </div>
+            </div>
+            <div class="product-content">
+                <img class="product-image" src="images/chambre5.png">
+                <div>
+                    <p class="product-price">3000 TND</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- DESIGN3 -->
+    <div class="design3">
+        <h1 class="design-category">Cuisine</h1>
+        <div class="product-content-design">
+            <div class="product-content">
+                <img class="product-image" src="images/cuisine1.png">
+                <div>
+                    <p class="product-price">1650 TND</p>
+                </div>
+            </div>
+            <div class="product-content">
+                <img class="product-image" src="images/cuisine2.png">
+                <div>
+                    <p class="product-price">1780 TND</p>
+                </div>
+            </div>
+            <div class="product-content">
+                <img class="product-image" src="images/cuisine3.png">
+                <div>
+                    <p class="product-price">1395 TND</p>
+                </div>
+            </div>
+            <div class="product-content">
+                <img class="product-image" src="images/cuisine4.png">
+                <div>
+                    <p class="product-price">1470 TND</p>
+                </div>
+            </div>
+            <div class="product-content">
+                <img class="product-image" src="images/cuisine5.png">
+                <div>
+                    <p class="product-price">1820 TND</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br><br>
+</body>
+<script>
+    const menuHamburger = document.querySelector(".menu")
+    const navLinks = document.querySelector(".nav-links")
+
+    menuHamburger.addEventListener('click',()=>{
+    navLinks.classList.toggle('mobile-menu')
+    })
+</script>
+</html>
